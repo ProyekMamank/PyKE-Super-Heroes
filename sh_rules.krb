@@ -1,21 +1,21 @@
 # sh_rules.krb
 
 hero_blackwidow
-    use hero_is(Blackwidow)
+    use hero_is(Black_Widow)
     when
         questions.is_man(False)
         questions.is_super_human(False)
         questions.is_normal_human(True)
 
 hero_scarletwitch
-    use hero_is(Scarlet Witch)
+    use hero_is(Scarlet_Witch)
     when
         questions.is_man(False)
         questions.is_super_human(True)
         questions.is_wear_cape(True)
 
 hero_captainmarvel
-    use hero_is(Captain Marvel)
+    use hero_is(Captain_Marvel)
     when
         questions.is_man(False)
         questions.is_super_human(True)
@@ -30,7 +30,7 @@ hero_hulk
         questions.is_wear_mask(False)
 
 hero_ironman
-    use hero_is(Iron Man)
+    use hero_is(Iron_Man)
     when
         questions.is_man(True)
         questions.is_super_human(False)
@@ -46,7 +46,7 @@ hero_thor
         questions.is_normal_human(False)
 
 hero_blackpanther
-    use hero_is(Black Panther)
+    use hero_is(Black_Panther)
     when
         questions.is_man(True)
         questions.is_super_human(True)
