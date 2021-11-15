@@ -46,14 +46,14 @@ hero_thor
 hero_blackpanther
     use hero_is(Black_Panther)
     when
-		sh_questions.is_man(True)
+		    sh_questions.is_man(True)
         sh_questions.is_super_human(True)
         sh_questions.is_wear_mask(True)
 		
 hero_antman
     use hero_is(Ant_Man)
     when
-		sh_questions.is_man(True)
+		    sh_questions.is_man(True)
         sh_questions.is_super_human(False)
         sh_questions.is_normal_human(True)
         sh_questions.is_able_to_fly(False)
