@@ -1,4 +1,8 @@
+<<<<<<< HEAD:questions.kqb
 # questions.kqb
+=======
+# sh_questions.kqb
+>>>>>>> main:sh_questions.kqb
 
 is_man($ans)
   Is it man?
