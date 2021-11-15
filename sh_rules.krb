@@ -53,7 +53,6 @@ hero_blackpanther
         questions.is_earthlings(True)
         questions.is_wear_mask(False)
 
-<<<<<<< HEAD:bc_simple_rules_questions.krb
 hero_antman
     use hero_is(Ant_Man)
     when
@@ -62,5 +61,3 @@ hero_antman
         questions.is_normal_human(True)
         questions.is_earthlings(True)
         questions.is_able_to_fly(False)
-=======
->>>>>>> main:sh_rules.krb
