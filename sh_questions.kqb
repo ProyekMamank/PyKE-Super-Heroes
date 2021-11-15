@@ -20,7 +20,7 @@ is_earthlings($ans)
   ---
   $ans = yn
 
-is_able_to_fly
+is_able_to_fly($ans)
   Is it able to fly?
   ---
   $ans = yn
