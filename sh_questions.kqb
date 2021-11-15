@@ -1,52 +1,52 @@
 # sh_questions.kqb
 
 is_man($ans)
-  Is it man?
+  Is your character a male?
   ---
   $ans = yn
 
 is_super_human($ans)
-  Is it super human?
+  Is your character a super human?
   ---
   $ans = yn
 
 is_normal_human($ans)
-  Is it normal human?
+  Is your character a normal human?
   ---
   $ans = yn
 
 is_earthlings($ans)
-  Does it come from earth?
+  Does your character come from earth?
   ---
   $ans = yn
 
 is_able_to_fly($ans)
-  Is it able to fly?
+  Is your character able to fly?
   ---
   $ans = yn
 
 is_wear_mask($ans)
-  Does it wear mask?
+  Does your character wear a mask?
   ---
   $ans = yn
 
 is_using_weapon($ans)
-  Does it use weapon?
+  Does your character use weapon?
   ---
   $ans = yn
 
 is_wear_cape($ans)
-  Does it wear a cape?
+  Does your character wear a cape?
   ---
   $ans = yn
 
 have_super_power($ans)
-  Does it have super power?
+  Does your character have super power?
   ---
   $ans = yn
 
 mostly_color($ans)
-	What is the super hero's main color?
+	What is your super hero's main color?
 	---
 	$ans = select_1
 		1: Mostly Green
@@ -55,16 +55,16 @@ mostly_color($ans)
 		4: Mostly Red
 
 is_close_combat($ans)
-  Does the super hero specialize in close combat?
+  Does your super hero specialize in close combat?
   ---
   $ans = yn
 
 is_rich($ans)
-  Is it rich?
+  Is your character rich?
   ---
   $ans = yn
 
 is_science_product($ans)
-  Is it a product of science?
+  Is your character a product of science?
   ---
   $ans = yn
