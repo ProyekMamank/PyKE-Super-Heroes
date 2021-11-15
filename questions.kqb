@@ -21,6 +21,8 @@ is_windy($ans)
 	---
 	$ans = yn
 
+#==============================================================================
+
 is_man($ans)
   Is it man?
   ---
@@ -31,9 +33,61 @@ is_super_human($ans)
   ---
   $ans = yn
 
+is_normal_human($ans)
+  Is it normal human?
+  ---
+  $ans = yn
+
 is_earthlings($ans)
   Does it come from earth?
   ---
   $ans = yn
 
 is_able_to_fly
+  Is it able to fly?
+  ---
+  $ans = yn
+
+is_wear_mask($ans)
+  Does it wear mask?
+  ---
+  $ans = yn
+
+is_using_weapon($ans)
+  Does it use weapon?
+  ---
+  $ans = yn
+
+is_wear_cape($ans)
+  Does it wear a cape?
+  ---
+  $ans = yn
+
+have_super_power($ans)
+  Does it have super power?
+  ---
+  $ans = yn
+
+mostly_color($ans)
+	What is the super hero's main color?
+	---
+	$ans = select_1
+		1: Mostly Green
+		2: Mostly Black
+		3: Mostly Blue
+		4: Mostly Red
+
+is_close_combat($ans)
+  Does the super hero specialize in close combat?
+  ---
+  $ans = yn
+
+is_rich($ans)
+  Is it rich?
+  ---
+  $ans = yn
+
+is_science_product($ans)
+  Is it a product of science?
+  ---
+  $ans = yn

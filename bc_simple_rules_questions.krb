@@ -1,5 +1,61 @@
 # bc_simple_rules.krb
 
+hero_blackwidow
+    use hero_is(Blackwidow)
+    when
+        questions.is_man(False)
+        questions.is_super_human(False)
+        questions.is_normal_human(True)
+
+hero_scarletwitch
+    use hero_is(Scarlet Witch)
+    when
+        questions.is_man(False)
+        questions.is_super_human(True)
+        questions.is_wear_cape(True)
+
+hero_captainmarvel
+    use hero_is(Captain Marvel)
+    when
+        questions.is_man(False)
+        questions.is_super_human(True)
+        questions.is_wear_cape(False)
+
+hero_hulk
+    use hero_is(Hulk)
+    when
+        questions.is_man(True)
+        questions.is_super_human(True)
+        questions.is_earthlings(True)
+        questions.is_wear_mask(False)
+
+hero_ironman
+    use hero_is(Iron Man)
+    when
+        questions.is_man(True)
+        questions.is_super_human(False)
+        questions.is_normal_human(True)
+        questions.is_earthlings(True)
+        questions.is_able_to_fly(True)
+
+hero_thor
+    use hero_is(Thor)
+    when
+        questions.is_man(True)
+        questions.is_super_human(False)
+        questions.is_normal_human(False)
+
+hero_blackpanther
+    use hero_is(Black Panther)
+    when
+        questions.is_man(True)
+        questions.is_super_human(True)
+        questions.is_earthlings(True)
+        questions.is_wear_mask(False)
+
+
+#=====================================================
+
 no_rain
     use what_to_bring(no_rain_gear)
     when
