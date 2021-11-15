@@ -8,14 +8,14 @@ hero_blackwidow
         questions.is_normal_human(True)
 
 hero_scarletwitch
-    use hero_is(Scarlet Witch)
+    use hero_is(Scarlet_Witch)
     when
         questions.is_man(False)
         questions.is_super_human(True)
         questions.is_wear_cape(True)
 
 hero_captainmarvel
-    use hero_is(Captain Marvel)
+    use hero_is(Captain_Marvel)
     when
         questions.is_man(False)
         questions.is_super_human(True)
@@ -30,7 +30,7 @@ hero_hulk
         questions.is_wear_mask(False)
 
 hero_ironman
-    use hero_is(Iron Man)
+    use hero_is(Iron_Man)
     when
         questions.is_man(True)
         questions.is_super_human(False)
@@ -46,54 +46,18 @@ hero_thor
         questions.is_normal_human(False)
 
 hero_blackpanther
-    use hero_is(Black Panther)
+    use hero_is(Black_Panther)
     when
         questions.is_man(True)
         questions.is_super_human(True)
         questions.is_earthlings(True)
         questions.is_wear_mask(False)
 
-
-#=====================================================
-
-no_rain
-    use what_to_bring(no_rain_gear)
+hero_antman
+    use hero_is(Ant_Man)
     when
-        questions.is_windy(False)
-
-what_to_bring_raincoat
-    use what_to_bring(raincoat)
-    when
-        questions.is_raining(True)
-        questions.is_windy(False)
-	
-what_to_bring_umbrella
-    use what_to_bring(umbrella)
-    when
-        questions.is_raining(True)
-        questions.is_windy(True)
-
-what_to_bring_marshmellos
-    use what_to_bring(marshmellos)
-    when
-        questions.any_disasters($ans)
-        check $ans in (1,)
-	
-what_to_bring_kite
-    use what_to_bring(kite)
-    when
-        questions.any_disasters($ans)
-        check $ans in (2,)
-
-what_to_bring_kolor
-    use what_to_bring(kolor)
-    when
-        questions.is_raining(False)
-        questions.any_disasters($ans)
-        check $ans in (3,)
-
-what_to_bring_tissues
-    use what_to_bring(tissues)
-    when
-        questions.any_disasters($ans)
-        check $ans in (4,)
+        questions.is_man(True)
+        questions.is_super_human(False)
+        questions.is_normal_human(True)
+        questions.is_earthlings(True)
+        questions.is_able_to_fly(False)
