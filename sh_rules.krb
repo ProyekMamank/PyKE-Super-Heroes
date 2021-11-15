@@ -3,61 +3,61 @@
 hero_blackwidow
     use hero_is(Black_Widow)
     when
-        questions.is_man(False)
-        questions.is_super_human(False)
-        questions.is_normal_human(True)
+        sh_questions.is_man(False)
+        sh_questions.is_super_human(False)
+        sh_questions.is_normal_human(True)
 
 hero_scarletwitch
     use hero_is(Scarlet_Witch)
     when
-        questions.is_man(False)
-        questions.is_super_human(True)
-        questions.is_wear_cape(True)
+        sh_questions.is_man(False)
+        sh_questions.is_super_human(True)
+        sh_questions.is_wear_cape(True)
 
 hero_captainmarvel
     use hero_is(Captain_Marvel)
     when
-        questions.is_man(False)
-        questions.is_super_human(True)
-        questions.is_wear_cape(False)
+        sh_questions.is_man(False)
+        sh_questions.is_super_human(True)
+        sh_questions.is_wear_cape(False)
 
 hero_hulk
     use hero_is(Hulk)
     when
-        questions.is_man(True)
-        questions.is_super_human(True)
-        questions.is_earthlings(True)
-        questions.is_wear_mask(False)
+        sh_questions.is_man(True)
+        sh_questions.is_super_human(True)
+        sh_questions.is_earthlings(True)
+        sh_questions.is_wear_mask(False)
 
 hero_ironman
     use hero_is(Iron_Man)
     when
-        questions.is_man(True)
-        questions.is_super_human(False)
-        questions.is_normal_human(True)
-        questions.is_earthlings(True)
-        questions.is_able_to_fly(True)
+        sh_questions.is_man(True)
+        sh_questions.is_super_human(False)
+        sh_questions.is_normal_human(True)
+        sh_questions.is_earthlings(True)
+        sh_questions.is_able_to_fly(True)
 
 hero_thor
     use hero_is(Thor)
     when
-        questions.is_man(True)
-        questions.is_super_human(False)
-        questions.is_normal_human(False)
+        sh_questions.is_man(True)
+        sh_questions.is_super_human(False)
+        sh_questions.is_normal_human(False)
 
 hero_blackpanther
     use hero_is(Black_Panther)
     when
-        questions.is_man(True)
-        questions.is_super_human(True)
-        questions.is_earthlings(True)
-        questions.is_wear_mask(False)
+        sh_questions.is_man(True)
+        sh_questions.is_super_human(True)
+        sh_questions.is_earthlings(True)
+        sh_questions.is_wear_mask(False)
 
 hero_antman
     use hero_is(Ant_Man)
     when
-        questions.is_man(True)
-        questions.is_super_human(False)
-        questions.is_normal_human(True)
-        questions.is_earthlings(True)
-        questions.is_able_to_fly(False)
+        sh_questions.is_man(True)
+        sh_questions.is_super_human(False)
+        sh_questions.is_normal_human(True)
+        sh_questions.is_earthlings(True)
+        sh_questions.is_able_to_fly(False)
