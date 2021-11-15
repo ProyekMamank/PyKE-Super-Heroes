@@ -49,7 +49,7 @@ hero_blackpanther
 		sh_questions.is_man(True)
         sh_questions.is_super_human(True)
         sh_questions.is_wear_mask(True)
-
+		
 hero_antman
     use hero_is(Ant_Man)
     when
